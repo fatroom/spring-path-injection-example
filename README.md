@@ -1,10 +1,12 @@
-# Spring Path injection test
+# Spring Path injection example
 
 This is sample project exposes unexpected change of behaviour in properties injection of type Path.
 
 As defined in PathConfig - default value for property should be "/tmp".
 
-When you try to run this app with ./gardlew bootRun it logs `Injected path: /tmp` as expected.
+When you try to run this app with ./gardlew bootRun it logs as expected:
+
+`Injected path: /tmp`
 
 When you try to run application from Intellij IDEA (open Application.java and select `run...`) it logs:
 
